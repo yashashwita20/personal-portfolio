@@ -2582,6 +2582,14 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   transform: scale(1.03);
 }
 
+.portfolio-img img {
+  transition: opacity 0.3s;
+}
+
+.portfolio-img:hover img {
+  opacity: 0.6; /* Adjust the opacity value as needed */
+}
+
 .portfolio .portfolio-box .portfolio-overlay-details {
   width: 100%;
   margin-top: auto;
