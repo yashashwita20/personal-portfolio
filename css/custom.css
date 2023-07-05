@@ -5,6 +5,61 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+.timeline {
+
+	margin: 0px auto;
+	padding: 10px;
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+	border-left: 3px solid #20c997;
+  }
+
+  .badge {
+	position: relative;
+	margin: 0 0 20px 20px;
+  }
+  
+  /* Card container */
+  .card {
+	position: relative;
+	margin: 0 0 20px 20px;
+	padding: 10px;
+	border-radius: 8px;
+	border-color: transparent;
+
+  }
+  
+  /* Information about the timeline */
+  .info {
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+	text-align: justify;
+	text-justify: inter-word;
+  }
+  
+  /* Title of the card */
+  .title {
+	color: #20c997;
+	position: relative;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: -45px;
+	background-color: white;
+	border: 4px solid #20c997;
+	border-radius: 50%;
+	z-index: 1;
+  }
+  
+
 
 
 

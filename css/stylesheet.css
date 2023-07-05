@@ -2049,8 +2049,8 @@ html[dir="rtl"] .side-header.side-header-right .primary-menu {
   width: 9px;
   height: 9px;
   border-color: #CCC;
-  border-top: 2px solid;
-  border-right: 2px solid;
+  border-top: 0px solid; /* changed border-top and border-right from 5px to 0px */
+  border-right: 0px solid;
   -webkit-transform: translate(-50%, -50%) rotate(-45deg);
   transform: translate(-50%, -50%) rotate(-45deg);
   -webkit-transition: all 0.2s ease;
@@ -2093,7 +2093,7 @@ html[dir="rtl"] .side-header.side-header-right .primary-menu {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0px;
   background: transparent;
-  color: #20c997;
+  color: #4c4d4d;
 }
 
 .accordion.accordion-flush .accordion-item:first-of-type .accordion-header .accordion-button {
